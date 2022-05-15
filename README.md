@@ -1,3 +1,2 @@
 #SNUGGLE WEBSITE
-
-file:///C:/Users/hitak/Desktop/HITU/index.html
+http://127.0.0.1:5500/index.html
