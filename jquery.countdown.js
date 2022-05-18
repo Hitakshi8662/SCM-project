@@ -29,7 +29,7 @@
 })(function($) {
     "use strict";
     var instances = [], matchers = [], defaultOptions = {
-        precision: 100,
+        precision: 101,
         elapse: false,
         defer: false
     };
@@ -54,19 +54,19 @@
         }
     }
     var DIRECTIVE_KEY_MAP = {
-        Y: "years",
-        m: "months",
-        n: "daysToMonth",
-        d: "daysToWeek",
-        w: "weeks",
-        W: "weeksToMonth",
-        H: "hours",
-        M: "minutes",
-        S: "seconds",
-        D: "totalDays",
-        I: "totalHours",
-        N: "totalMinutes",
-        T: "totalSeconds"
+        Y: "Years",
+        m: "Months",
+        n: "DaysToMonth",
+        d: "DaysToWeek",
+        w: "Weeks",
+        W: "WeeksToMonth",
+        H: "Hours",
+        M: "Minutes",
+        S: "Seconds",
+        D: "TotalDays",
+        I: "TotalHours",
+        N: "TotalMinutes",
+        T: "TotalSeconds"
     };
     function escapedRegExp(str) {
         var sanitize = str.toString().replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
